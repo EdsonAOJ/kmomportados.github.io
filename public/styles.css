@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box
+}
+
+.page-landing {
+    background: linear-gradient(329.54deg, #D8BFD8 0%, #FFE4E1 100%);
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.image {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+
+img {
+    border-radius: 50%;
+    max-height: 500px;
+    max-width: 150px;
+
+}
+
+.ImageWpp {
+    color: white;
+    border-radius: 10%;
+    max-height: 20px;
+    max-width: 150px;
+    filter: invert(100%);
+
+}
+
+.footer-image {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+}
+
+.contact {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid pink
+}
+
+.title {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-content {
+    text-decoration: blink;
+    font-size: 19px;
+    white-space: nowrap;
+}
+
+
+.svg-inline--fa {
+    width: 1em;
+
+}
+
+button {
+    /* font-size: 16px;
+    padding: 10px;
+    color: white;
+    border:none */
+
+    margin: 10px;
+    background: linear-gradient(329.54deg, #DA70D6 0%, #DDA0DD 100%);
+
+    border-radius: 8px;
+    color: white;
+    min-width: 350px;
+    max-width: 400px;
+    font-family: arial;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    bottom: 100px;
+    width: 100%;
+}
+
+.text-footer {
+    color: black;
+    font-size: 19px;
+}
+
+.text-footer-link {
+    text-decoration: none;
+    color: darkorchid;
+    font-size: 19px;
+    margin: 10px 0 5px 0;
+}
